@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="jbr-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Phrases/task" />
+            <option value="$PROJECT_DIR$/Topics/Data class/Allowance for constructors" />
+            <option value="$PROJECT_DIR$/Topics/Data class/Generated functions" />
+            <option value="$PROJECT_DIR$/Topics/Data class/Illegal to override" />
+            <option value="$PROJECT_DIR$/Topics/Data class/Not overridable" />
+            <option value="$PROJECT_DIR$/Topics/Data class/Room mystery" />
+            <option value="$PROJECT_DIR$/Topics/Data class/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Data class/We are students" />
+            <option value="$PROJECT_DIR$/Topics/Data class/copy() usage" />
+            <option value="$PROJECT_DIR$/Topics/Data class/toString() modification" />
+            <option value="$PROJECT_DIR$/Topics/Reading data with readln/Check the input" />
+            <option value="$PROJECT_DIR$/Topics/Reading data with readln/Creating an application to convert user input to a string" />
+            <option value="$PROJECT_DIR$/Topics/Reading data with readln/Fix the input" />
+            <option value="$PROJECT_DIR$/Topics/Reading data with readln/How to learn the whole Kotlin per one task" />
+            <option value="$PROJECT_DIR$/Topics/Reading data with readln/Invoke readLine()" />
+            <option value="$PROJECT_DIR$/Topics/Reading data with readln/Read a Double" />
+            <option value="$PROJECT_DIR$/Topics/Reading data with readln/Read data correctly" />
+            <option value="$PROJECT_DIR$/Topics/Reading data with readln/Reading data" />
+            <option value="$PROJECT_DIR$/Topics/Reading data with readln/Reversed output" />
+            <option value="$PROJECT_DIR$/Topics/Reading data with readln/Summing up space-separated integers from a string" />
+            <option value="$PROJECT_DIR$/Topics/Reading data with readln/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Reading data with readln/toDouble()" />
+            <option value="$PROJECT_DIR$/Topics/Type cast and smart cast/Correct code order" />
+            <option value="$PROJECT_DIR$/Topics/Type cast and smart cast/Defining a variable type" />
+            <option value="$PROJECT_DIR$/Topics/Type cast and smart cast/Generics type checks in work" />
+            <option value="$PROJECT_DIR$/Topics/Type cast and smart cast/Multiply the numbers by 2" />
+            <option value="$PROJECT_DIR$/Topics/Type cast and smart cast/Numbers cast" />
+            <option value="$PROJECT_DIR$/Topics/Type cast and smart cast/Replace non-string literal" />
+            <option value="$PROJECT_DIR$/Topics/Type cast and smart cast/Safe cast type to String" />
+            <option value="$PROJECT_DIR$/Topics/Type cast and smart cast/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Type cast and smart cast/Writing a string counter" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
