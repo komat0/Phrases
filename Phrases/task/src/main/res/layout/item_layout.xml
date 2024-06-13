@@ -1,26 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="10dp">
+    android:orientation="horizontal"
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/phraseTextView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginEnd="2dp"
-        android:layout_weight="0.2"
-        android:gravity="left"
-        android:text="@string/textview"
-        android:textSize="20sp" />
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/enter_phrase"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/deleteTextView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="2dp"
-        android:layout_weight="0.8"
-        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/delete"
-        android:textSize="12sp" />
+        android:textColor="@android:color/holo_red_dark"
+        android:padding="8dp" />
 </LinearLayout>

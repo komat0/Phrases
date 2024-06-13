@@ -7,10 +7,9 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class RecyclerAdapter(
-    private val dataList: MutableList<DataClass>,
+    private var dataList: List<Phrase>,
     private val onDeleteClickListener: OnDeleteClickListener,
-) :
-    RecyclerView.Adapter<RecyclerAdapter.ViewHolderClass>() {
+) : RecyclerView.Adapter<RecyclerAdapter.ViewHolderClass>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolderClass {
         val itemView = LayoutInflater.from(parent.context)
@@ -22,7 +21,7 @@ class RecyclerAdapter(
         val currentItem = dataList[position]
         holder.bind(currentItem)
         holder.deleteTextView.setOnClickListener {
-            onDeleteClickListener.onDeleteClick(position)
+            onDeleteClickListener.onDeleteClick(currentItem)
         }
     }
 
@@ -30,16 +29,21 @@ class RecyclerAdapter(
         return dataList.size
     }
 
+    fun updateData(newDataList: List<Phrase>) {
+        dataList = newDataList
+        notifyDataSetChanged()
+    }
+
     class ViewHolderClass(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val phraseTextView: TextView = itemView.findViewById(R.id.phraseTextView)
         val deleteTextView: TextView = itemView.findViewById(R.id.deleteTextView)
 
-        fun bind(item: DataClass) {
+        fun bind(item: Phrase) {
             phraseTextView.text = item.phrase
         }
     }
 
     interface OnDeleteClickListener {
-        fun onDeleteClick(position: Int)
+        fun onDeleteClick(phrase: Phrase)
     }
 }
